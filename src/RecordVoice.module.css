@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 500px;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #472151;
+  align-items: center;
+  padding: 16px 20px 50px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.equalizer {
+  height: 175px;
+  margin-bottom: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equalizer div {
+  margin: 2px;
+  border-radius: 30px;
+  background: linear-gradient(180.26deg, #FE3E8C 0.22%, #8332BA 99.78%);
+  width: 10px;
+} 
+
+.controls {
+  display:  flex;
+  align-items: center;
+  justify-content:  space-around;
+  width: 100%;
+}
+
+.deleteRecord {
+  color: #e83030;
+}
+
+.approveRecord {
+  color: #73c323;
+}
+
+.recordBtn {
+  width: 82px;
+  height: 82px;
+}
+
+.recordSvg {
+  width: 30px;
+  height: 30px;
+}
+
+.redoContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fe3e8c;
+  align-items: center;
+}
+
+.redoBtn {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 4px;
+}
+
+.redoSvg {
+  color: #fe3e8c;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
